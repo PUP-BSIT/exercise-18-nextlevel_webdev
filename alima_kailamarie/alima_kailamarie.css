@@ -1,0 +1,160 @@
+body, h1, h2, ul, ol, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Apply a background color and font styling */
+body {
+    background: url("old.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Style the navigation bar */
+header {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the main content */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 245, 1); /* Transparent white background */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 15px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0078d4;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #004eaa;
+}
+
+/* Style the image gallery with a subtle hover effect */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* CSS animation keyframes for fading in elements */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Navigation menu */
+.menu {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #0078d4;
+}
+
+.goals {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 245, 1); 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-family: 'Arial', sans-serif;
+}
