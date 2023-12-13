@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="alima_kailamarie.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alima Kaila Marie Page</title></head>
+<body>
+    <header>
+        <h1>Alima Kaila Marie</h1>
+    </header>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </div>
+
+    <div class="content" id="interests">
+        <h2>My Interests and Hobbies</h2>
+        <ul>
+            <li>Watching K-Dramas</li>
+            <p>It helps me to escape from the real world.</p>
+            <li>Reading some books</li>
+            <p>Sometimes, books can be just the warm, uplifting hug feeling 
+                that you need in an otherwise crappy world.</p>
+            <li>Painting</li>
+            <p>It can make me feel calm and relaxed.</p>
+            <li>Cooking</li>
+            <p>When others enjoy what I have cooked and give comments about 
+                the food, I feel overjoyed, proud, and accomplished.</p>
+            <li>Playing Badminton</li>
+            <p>It is the source of my energy.</p>
+        </ul>
+    </div>
+
+    <div class="content" id="works">
+        <h2>My Works</h2>
+        <ol>
+            <li><a href="#">Work 1</a></li>
+            <li><a href="#">Work 2</a></li>
+            <li><a href="#">Work 3</a></li>
+            <li><a href="#">Work 4</a></li>
+            <li><a href="#">Work 5</a></li>
+        </ol>
+    </div>
+
+    <div class="content" id="testimonials">
+        <h2>Testimonials</h2>
+			<p> "I had the pleasure of working with Kaila Marie on our recent 
+                exercise. Her dedication, creativity, and commitment to 
+                excellence were truly impressive. She consistently went above
+                and beyond to ensure our exercise success, and I couldn't have
+                asked for a better group mate. I look forward to working with 
+			    her again in the future." - Cruz Simounne </p>
+    </div>
+
+    <div class="content" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="school.jpg" alt="School">
+            <img src="multimedia.jpg" alt="Multimedia">
+            <img src="girls.jpg" alt="Girls">
+            <img src="birthday.jpg" alt="Birthday">
+            <img src="techxhibit.jpg" alt="Techxhibit">
+        </div>
+    </div>
+    <div class="goals" id="my_goals">
+        <h1>My Goals</h1>
+        <ul>
+            <li>Achieve success in life</li>
+            <li>Making my parents proud of what I can become in the future</li>
+            <li>Having a healthy diet</li>
+            <li>sleeping better</li>
+            <li>getting good grades</li>
+        </ul>
+        <div class="comment">
+            <p><strong>Simounne</strong>: Nice goals.</p>
+            <p><strong>Kaila</strong>: I hope I inspired her with my goals.</p>
+            <p><strong>Simounne</strong>: I hope that you'll achieve your 
+                goals!</p>
+        </div>
+
+        <div class="countries">
+            <a href="./countries/countries.html">
+                <button type="button" class="country-btn">
+                    Countries of the World
+                </button>
+            </a>
+        </div>
+
+        <div class="comment-section">
+            <form id="comment_form">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" 
+                name="full_name" required><br><br>
+    
+                <label for="comment">Comment:</label>
+                <textarea id="comment" 
+                placeholder="Your Comment" required></textarea>
+    
+                <button type="submit" 
+                id="comment_button" disabled>Comment</button>
+    
+                <button id="sort_asc_button">Sort Ascending</button>
+                <button id="sort_desc_button">Sort Descending</button>
+    
+            </form>
+        </div>
+    
+    <script src="comments.js"></script>
+</body>
+</html>
