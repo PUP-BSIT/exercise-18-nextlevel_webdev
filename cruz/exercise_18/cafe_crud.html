@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cafe_style.css">
+    <title>Cafe CRUD</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cafe CRUD</h1>
+
+        <form id="cafeForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="rating">Ratings:</label>
+            <input type="number" id="rating" name="rating" required>
+
+            <label for="capacity">Capacity:</label>
+            <input type="number" id="capacity" name="capacity" required>
+
+            <label for="open_hours">Open Hours:</label>
+            <input type="text" id="open_hours" name="open_hours" required>
+
+            <button type="button" onclick="createCafe()">Create</button>
+            <button type="button" onclick="readCafes()">Read</button>
+            <button type="button" onclick="updateCafe()">Update</button>
+            <button type="button" onclick="deleteCafe()">Delete</button>
+        </form>
+
+        <table id="cafeTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Ratings</th>
+                    <th>Capacity</th>
+                    <th>Open Hours</th>
+                </tr>
+            </thead>
+            <tbody id="cafeBody"></tbody>
+        </table>
+    </div>
+
+    <script src="cafe_script.js"></script>
+</body>
+</html>
